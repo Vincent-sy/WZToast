@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="吐司示例"
+        android:textSize="28sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="commonToast"
+        android:textSize="25sp"
+        android:text="普通吐司" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="infoToast"
+        android:textSize="25sp"
+        android:text="信息提示吐司" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="successToast"
+        android:textSize="25sp"
+        android:text="成功提示吐司" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="warnToast"
+        android:textSize="25sp"
+        android:text="警告提示吐司" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="errorToast"
+        android:textSize="25sp"
+        android:text="错误提示吐司" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="jumpActivity"
+        android:textSize="25sp"
+        android:text="页面跳转" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doubleClickToast"
+        android:textSize="25sp"
+        android:text="两次后退提示退出程序" />
+</LinearLayout>
